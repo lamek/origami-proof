@@ -1,0 +1,9 @@
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Or center, or whatever layout you prefer */
+}
+
+button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed; /* Optional: change the cursor to indicate it's disabled */
+}

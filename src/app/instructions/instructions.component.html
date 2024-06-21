@@ -1,0 +1,8 @@
+<div class="instruction-content">
+  {{ steps[currentStepIndex].instruction }}
+</div>
+
+<div class="button-container">
+  <button (click)="previousStep()" [disabled]="currentStepIndex === 0">Back</button>
+  <button (click)="nextStep()">Next</button>
+</div>

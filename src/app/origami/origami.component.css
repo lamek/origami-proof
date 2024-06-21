@@ -1,0 +1,9 @@
+.origami-paper {
+  width: 300px; /* Adjust the size as needed */
+  height: 300px;
+  background-color: lightblue;
+
+  /* Centering */
+  display: block; /* Make it a block-level element */
+  margin: 0 auto; /* Center horizontally */
+}

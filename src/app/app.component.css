@@ -1,0 +1,16 @@
+.app-container {
+    display: flex; /* Use flexbox for layout */
+}
+
+.origami-container {
+    flex: 2; /* Origami takes 2/3 of the space */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+}
+
+.instructions-container {
+    flex: 1; /* Instructions take 1/3 of the space */
+    padding: 20px;
+    border-left: 1px solid #ccc;
+}
